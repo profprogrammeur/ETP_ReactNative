@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Ecris Ton Prénom",
+    "slug": "EcrisTonPrenom",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon":"./avatar-310.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos ."
+        }
+      ]
+    ]
+  },
+  "android": {
+    "package": "com.EcrisTonPrenom",
+    "icon":"./avatar-310.png",
+    "versionCode":1
+
+  }
+}
